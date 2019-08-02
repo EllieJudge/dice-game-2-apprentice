@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container1{
+    width: 500px;
+    height: 500px;
+    background-color: #FF8008;
+    border-top:   2px solid;
+    border-left:  2px solid; 
+    border-bottom: 2px solid;
+}
+
+#container2 {
+    width: 500px;
+    height: 500px;
+    background-color: #FFC837;
+    border-top:   2px solid;
+    border-right:  2px solid; 
+    border-bottom: 2px solid;
+}
+
+#globalScore {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+#globalScore2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+#currentScore {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#currentScore2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#middleDiv {
+    width: 300px;
+    height: 500px;
+    background-color:#ffaa08;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#newGameText {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+#mc3 {
+    display: flex;
+    justify-content: center;
+}
+#rollButton {
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+#mc4{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+}
+#hold {
+    background-color: aliceblue;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerText1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+    background-color: red;
+}
+
+#playerText2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+    background-color: red;
+}
+
+#mc2 {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+#mc3{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
